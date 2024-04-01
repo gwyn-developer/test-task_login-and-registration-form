@@ -1,0 +1,46 @@
+@keyframes animate-shine {
+	0% {opacity: 0; width: 0;}
+	50% {opacity: .5;}
+	100% {opacity: 0; width: 95%;}
+}
+@keyframes spinner-3 {
+	to {
+		transform: rotate(1turn);
+	}
+}
+
+.fade {
+	&-enter-active,
+	&-leave-active {
+		transition: opacity 300ms;
+	}
+
+	&-enter,
+	&-leave-to {
+		opacity: 0;
+	}
+}
+
+.slide {
+	&-enter-active {
+		transition-duration: 200ms;
+		transition-timing-function: ease-in;
+	}
+
+	&-leave-active {
+		transition-duration: 200ms;
+		transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+	}
+
+	&-enter-to,
+	&-leave {
+		max-height: 280px;
+		overflow: hidden;
+	}
+
+	&-enter,
+	&-leave-to {
+		max-height: 0px;
+		overflow: hidden;
+	}
+}

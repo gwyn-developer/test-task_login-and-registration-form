@@ -1,0 +1,96 @@
+// Font
+$mainFont                : "Montserrat", "OpenSans-Regular", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+
+// Size
+$mainFontColor           : #555555;
+$mainFontSize            : 16px;
+$mainFontWeight          : 400;
+$mainLineHeight          : 20px;
+
+
+
+
+// UI_KIT COLORS ---------------------------------
+
+$white					: #ffffff;
+$black					: #2F3032;
+$red					: #ED604E;
+$orange					: #ed604e;
+$blue					: #26a8e2;
+$blue-2					: #3EDDFF;
+$green					: #049127;
+
+$warning-color			: #fed330;
+
+$grey-dark				: #818994;
+$gray					: #555555;
+$gray-1					: #bebebe;
+$gray-2					: #e2e2e2;
+$gray-3					: #c9d0d6;
+$gray-4					: #f5f6f8;
+$gray-5					: #cacfd3;
+
+// -----------------------------------------
+
+
+
+
+
+// Main color
+$default-color           : #ffffff;
+$success-color           : #63d544;
+$danger-color            : #fc5c65;
+$light-color             : #999999;
+$purple-color            : #8854d0;
+
+$primary-color: #00AEEF;
+$blue-color: #185ccf;
+
+// User color
+$btn-secondary           : #DFE3F3;
+$bg-black                : #101828;
+$red-bx-1				: #f84932;
+$grey-bx-1				: #535c69;
+$grey-bx-2				: #77828e;
+$blue-bx-1				: #2067b0;
+
+
+
+// Neutral Color
+$neutral-primary         : #303133;
+$neutral-regular         : #484848;
+$neutral-secondary       : #909399;
+$neutral-placeholder     : #C0C4CC;
+$neutral-placeholder-2   : #d7e3e7;
+
+// Border Color
+$border-base             : #DCDFE6;
+$border-light            : #E4E7ED;
+$border-lighter          : #EBEEF5;
+$border-lightex          : #F2F6FC;
+
+// Mobile vars
+$grayBodyBg: #f5f6f8;
+$btnBg: #26a8e2;
+
+
+
+// Новая верстка
+$grey: $gray-5;
+$grey-3: $gray-3;
+$grey-2: $gray-2;
+$grey-light: $gray-4;
+$blue-3: #185ccf;
+
+
+$mainFontMob: "Montserrat", "OpenSans-Regular", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+$mainFontColorMob: $black;
+
+@media (max-width: 767px) {
+	$mainFont: "Montserrat", "OpenSans-Regular", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+	$mainFontSize: 14px;
+	$mainFontWeight: 500;
+	$mainLineHeight: 1.2;
+	$mainFontStyle: normal;
+	$mainFontColor: $black;
+}
